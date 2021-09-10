@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 });
 
 // Setup some endpoints
-app.post('/ron', (req, res) => {
+app.post('/ted', (req, res) => {
   // the request should have our slack verification token in it so we know it's coming from Slack
   if (isProd && req.body.token !== process.env.SLACK_VERIFICATION_TOKEN) {
     res.status(400).send(`Invalid request.`);
