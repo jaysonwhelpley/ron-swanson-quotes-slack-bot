@@ -1,21 +1,22 @@
 {
-  "name": "ted-lasso-bot",
-  "version": "1.1.0",
+  "name": "ted-lasso-quotes-slack-bot",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "quotes.js",
   "scripts": {
-    "start": "NODE_ENV=production pm2 start index.js --name ted -i 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Jayson Whelpley",
+  "repository": {
+    "type": "git",
+    "url": "git+https://jaysonwhelpley@github.com/jaysonwhelpley/ted-lasso-quotes-slack-bot.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysonwhelpley/ted-lasso-quotes-slack-bot/issues"
+  },
+  "homepage": "https://github.com/jaysonwhelpley/ted-lasso-quotes-slack-bot#readme",
   "dependencies": {
-    "axios": "^0.16.2",
-    "body-parser": "^1.17.2",
-    "compression": "^1.7.0",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.3",
-    "helmet": "^3.6.1",
-    "lodash": "^4.17.4"
+    "@slack/bolt": "^3.6.0"
   }
 }
